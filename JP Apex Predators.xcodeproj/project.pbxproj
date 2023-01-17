@@ -11,6 +11,7 @@
 		94F2AF21297698BE005910EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2AF20297698BE005910EF /* ContentView.swift */; };
 		94F2AF23297698BE005910EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F2AF22297698BE005910EF /* Assets.xcassets */; };
 		94F2AF26297698BE005910EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F2AF25297698BE005910EF /* Preview Assets.xcassets */; };
+		94F2AF2D29769A24005910EF /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 94F2AF2C29769A24005910EF /* jpapexpredators.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		94F2AF20297698BE005910EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94F2AF22297698BE005910EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F2AF25297698BE005910EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94F2AF2C29769A24005910EF /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				94F2AF1E297698BE005910EF /* JP_Apex_PredatorsApp.swift */,
 				94F2AF20297698BE005910EF /* ContentView.swift */,
+				94F2AF2C29769A24005910EF /* jpapexpredators.json */,
 				94F2AF22297698BE005910EF /* Assets.xcassets */,
 				94F2AF24297698BE005910EF /* Preview Content */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				94F2AF26297698BE005910EF /* Preview Assets.xcassets in Resources */,
 				94F2AF23297698BE005910EF /* Assets.xcassets in Resources */,
+				94F2AF2D29769A24005910EF /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
