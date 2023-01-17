@@ -13,6 +13,7 @@
 		94F2AF26297698BE005910EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F2AF25297698BE005910EF /* Preview Assets.xcassets */; };
 		94F2AF2D29769A24005910EF /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 94F2AF2C29769A24005910EF /* jpapexpredators.json */; };
 		94F2AF2F29769B0C005910EF /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2AF2E29769B0C005910EF /* ApexPredator.swift */; };
+		94F2AF3129769C83005910EF /* PredatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2AF3029769C83005910EF /* PredatorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		94F2AF25297698BE005910EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94F2AF2C29769A24005910EF /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 		94F2AF2E29769B0C005910EF /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
+		94F2AF3029769C83005910EF /* PredatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				94F2AF20297698BE005910EF /* ContentView.swift */,
 				94F2AF2C29769A24005910EF /* jpapexpredators.json */,
 				94F2AF2E29769B0C005910EF /* ApexPredator.swift */,
+				94F2AF3029769C83005910EF /* PredatorController.swift */,
 				94F2AF22297698BE005910EF /* Assets.xcassets */,
 				94F2AF24297698BE005910EF /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F2AF3129769C83005910EF /* PredatorController.swift in Sources */,
 				94F2AF2F29769B0C005910EF /* ApexPredator.swift in Sources */,
 				94F2AF21297698BE005910EF /* ContentView.swift in Sources */,
 				94F2AF1F297698BE005910EF /* JP_Apex_PredatorsApp.swift in Sources */,
