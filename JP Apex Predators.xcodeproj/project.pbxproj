@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9430385F297801F600F685D7 /* PredatorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430385E297801F600F685D7 /* PredatorRow.swift */; };
 		94F2AF1F297698BE005910EF /* JP_Apex_PredatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2AF1E297698BE005910EF /* JP_Apex_PredatorsApp.swift */; };
 		94F2AF21297698BE005910EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F2AF20297698BE005910EF /* ContentView.swift */; };
 		94F2AF23297698BE005910EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F2AF22297698BE005910EF /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9430385E297801F600F685D7 /* PredatorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorRow.swift; sourceTree = "<group>"; };
 		94F2AF1B297698BE005910EF /* JP Apex Predators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JP Apex Predators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F2AF1E297698BE005910EF /* JP_Apex_PredatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_Apex_PredatorsApp.swift; sourceTree = "<group>"; };
 		94F2AF20297698BE005910EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				94F2AF1E297698BE005910EF /* JP_Apex_PredatorsApp.swift */,
 				94F2AF2E29769B0C005910EF /* ApexPredator.swift */,
 				94F2AF20297698BE005910EF /* ContentView.swift */,
+				9430385E297801F600F685D7 /* PredatorRow.swift */,
 				94F2AF3029769C83005910EF /* PredatorController.swift */,
 				94F2AF2C29769A24005910EF /* jpapexpredators.json */,
 				94F2AF22297698BE005910EF /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				94F2AF2F29769B0C005910EF /* ApexPredator.swift in Sources */,
 				94F2AF21297698BE005910EF /* ContentView.swift in Sources */,
 				94F2AF1F297698BE005910EF /* JP_Apex_PredatorsApp.swift in Sources */,
+				9430385F297801F600F685D7 /* PredatorRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
