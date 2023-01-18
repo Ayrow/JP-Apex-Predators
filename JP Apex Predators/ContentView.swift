@@ -17,7 +17,7 @@ struct ContentView: View {
                     predator in
                     
                     NavigationLink(destination: Text("Dino details go here")) {
-                        Text(predator.name)
+                        PredatorRow(predator: predator)
                     }
                 }
             }.navigationTitle("Apex Predators")
