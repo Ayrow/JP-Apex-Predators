@@ -58,10 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				94F2AF1E297698BE005910EF /* JP_Apex_PredatorsApp.swift */,
-				94F2AF20297698BE005910EF /* ContentView.swift */,
-				94F2AF2C29769A24005910EF /* jpapexpredators.json */,
 				94F2AF2E29769B0C005910EF /* ApexPredator.swift */,
+				94F2AF20297698BE005910EF /* ContentView.swift */,
 				94F2AF3029769C83005910EF /* PredatorController.swift */,
+				94F2AF2C29769A24005910EF /* jpapexpredators.json */,
 				94F2AF22297698BE005910EF /* Assets.xcassets */,
 				94F2AF24297698BE005910EF /* Preview Content */,
 			);

@@ -15,7 +15,7 @@ class PredatorController {
     }
     
     func decodeApexPredatorData() {
-        if let url = Bundle.main.url(forResource: "jppapexpredators", withExtension: "json") {
+        if let url = Bundle.main.url(forResource: "jpapexpredators", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
