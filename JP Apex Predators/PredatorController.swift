@@ -25,7 +25,14 @@ class PredatorController {
                 print("Error decoding JSON data : \(error)")
             }
         }
-        
-        
     }
+    
+    func sortByAlphabetical() {
+        apexPredators.sort(by: { $0.name < $1.name})
+    }
+    
+    func sortByMovieAppearance() {
+        apexPredators.sort(by: { $0.id < $1.id})
+    }
+    
 }
