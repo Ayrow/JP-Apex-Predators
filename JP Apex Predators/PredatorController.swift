@@ -32,17 +32,28 @@ class PredatorController {
     
     func typeIcon(for type: String) -> String {
         switch type {
-            case "All": return "square.stack.3d.up.fill"
-            case "Land": return "leaf.fill"
-            case "Air": return "wind"
-            case "Sea": return "drop.fill"
-            default: return "questionmark"
+        case "All": return "square.stack.3d.up.fill"
+        case "Land": return "leaf.fill"
+        case "Air": return "wind"
+        case "Sea": return "drop.fill"
+        default: return "questionmark"
+        }
+    }
+    
+    func filterPredatorsBySearch(for searchText: String) {
+        if searchText != "" {
+            apexPredators = allApexPredators.filter {
+                $0.name
+                    .localizedCaseInsensitiveContains(searchText)
+            }
+        } else {
+            apexPredators = allApexPredators
         }
     }
     
     func filterBy(for type: String) {
         switch type {
-            case "Land", "Air", "Sea":
+        case "Land", "Air", "Sea":
             apexPredators = allApexPredators.filter {
                 $0.type == type.lowercased()
             }
@@ -58,7 +69,6 @@ class PredatorController {
     func sortByMovieAppearance() {
         apexPredators.sort(by: { $0.id < $1.id})
     }
-    
     
     
 }

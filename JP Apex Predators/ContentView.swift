@@ -11,9 +11,12 @@ struct ContentView: View {
     let apController = PredatorController()
     @State var sortAlphabetical = false
     @State var currentFilter = "All"
+    @State var searchQuery = ""
     
     var body: some View {
+        
         apController.filterBy(for: currentFilter)
+        apController.filterPredatorsBySearch(for: searchQuery)
         
         if sortAlphabetical {
              apController.sortByAlphabetical()
@@ -66,10 +69,22 @@ struct ContentView: View {
                         Image(systemName: "slider.horizontal.3")
                     }
                 }
+                
             }
         }
+       .searchable(text: $searchQuery, prompt: "Search Predator")
+        
+       .onSubmit(of: .search) {
+           apController.filterPredatorsBySearch(for: searchQuery)
+       }
     }
+    
+    
+    
+    
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
